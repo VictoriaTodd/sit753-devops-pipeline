@@ -15,7 +15,7 @@ pipeline {
 
         stage('Unit and Integration Tests') {
             steps {
-                echo 'Stage 2: Unit and Integration Tests
+                echo 'Stage 2: Unit and Integration Tests'
                 echo 'Tool: JUnit (unit tests), Appium (integration tests)'
             }
         }
